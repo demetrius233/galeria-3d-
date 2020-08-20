@@ -8,14 +8,23 @@
 </head>
 <body>
     <div class="gallery">
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
-        <span><img src="http://placeimg.com/200/200/any"></span>
+        <span><img src="img/1.jpg"></span>
+        <span><img src="img/2.jpg"></span>
+        <span><img src="img/3.jpg"></span>
+        <span><img src="img/4.jpg"></span>
+        <span><img src="img/5.jpg"></span>
+        <span><img src="img/6.jpg"></span>
+        <span><img src="img/7.jpg"></span>
+        <span><img src="img/8.jpg"></span>
     </div>
+
+    <script>
+        const gallery = document.querySelector(".gallery")
+        document.addEventListener("mousemove", e=>{
+            const moveX = e.screenX / 3
+
+            gallery.style.transform = `rotateY(${moveX}deg)`
+        })
+    </script>
 </body>
 </html>
