@@ -31,6 +31,6 @@ span{
 }
 @for $var from 1 through 8 {
     span:nth-child(#{$var}){
-        transform:  rotateY(45deg * $var) translateZ(250px) rotateX(15deg);
+        transform:  rotateY(45deg * $var) translateZ(250px) rotateX(20deg);
     }
 }

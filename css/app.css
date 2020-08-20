@@ -28,27 +28,27 @@ span {
   -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, gray); }
 
 span:nth-child(1) {
-  transform: rotateY(45deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(45deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(2) {
-  transform: rotateY(90deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(90deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(3) {
-  transform: rotateY(135deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(135deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(4) {
-  transform: rotateY(180deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(180deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(5) {
-  transform: rotateY(225deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(225deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(6) {
-  transform: rotateY(270deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(270deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(7) {
-  transform: rotateY(315deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(315deg) translateZ(250px) rotateX(20deg); }
 
 span:nth-child(8) {
-  transform: rotateY(360deg) translateZ(250px) rotateX(15deg); }
+  transform: rotateY(360deg) translateZ(250px) rotateX(20deg); }
 
 /*# sourceMappingURL=app.css.map */
